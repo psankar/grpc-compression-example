@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package github.com/psankar/grpc-compression-example;
+
+message Result {
+	string message = 1;
+}
+
+service ExampleService {
+	rpc Query() returns (stream Result) {}
+}
+
