@@ -11,5 +11,9 @@
     "url": "github.com/psankar/grpc-compression-example"
   },
   "author": "sankar.curiosity@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "google-protobuf": "^3.21.0"
+  }
 }
