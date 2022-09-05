@@ -1,0 +1,15 @@
+{
+  "name": "grpc-compression-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example_pb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/psankar/grpc-compression-example"
+  },
+  "author": "sankar.curiosity@gmail.com",
+  "license": "MIT"
+}

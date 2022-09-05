@@ -1,5 +1,5 @@
-import * as exsvc from '../libs/js/example_pb_service';
-import * as expb from '../libs/js/example_pb';
+import * as exsvc from 'grpc-compression-example/example_pb_service';
+import * as expb from 'grpc-compression-example/example_pb';
 import * as grpc from 'grpc';
 
 const grpcCli = new exsvc.ExampleServiceClient("localhost:8080",

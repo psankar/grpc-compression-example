@@ -14,5 +14,6 @@ server $ go run main.go ;# Should launch the gRPC server in 8080
 # launch client
 ```
 $ cd client
-$ tsc app.ts && node app.js
+client $ npm install
+client $ tsc app.ts && node app.js
 ```
