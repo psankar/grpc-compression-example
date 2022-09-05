@@ -1,0 +1,22 @@
+{
+  "name": "grpc-compression-example",
+  "version": "1.0.0",
+  "description": "gRPC Compression Example",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psankar/grpc-compression-example.git"
+  },
+  "author": "sankar.curiosity@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psankar/grpc-compression-example/issues"
+  },
+  "homepage": "https://github.com/psankar/grpc-compression-example#readme",
+  "dependencies": {
+
+  }
+}
