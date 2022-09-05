@@ -4,5 +4,6 @@ go 1.16
 
 require (
 	github.com/psankar/grpc-compression-example/libs/go v0.0.0-20220905095122-4e210eb4e243
-	github.com/rs/zerolog v1.28.0
+	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
+	google.golang.org/grpc v1.49.0
 )

@@ -6,11 +6,11 @@ import (
 	"net"
 
 	golibs "github.com/psankar/grpc-compression-example/libs/go"
-	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 )
 
 type Handler struct {
+	golibs.UnimplementedExampleServiceServer
 }
 
 func (h *Handler) Query(req *golibs.Request, stream golibs.ExampleService_QueryServer) error {
