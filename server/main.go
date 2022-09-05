@@ -1,13 +1,21 @@
 package main
 
 import (
-	"github.com/psankar/grpc-compression-example/libs/go"
+	"fmt"
+	"log"
+	"net"
+
+	golibs "github.com/psankar/grpc-compression-example/libs/go"
+	"github.com/rs/zerolog/log"
+	"google.golang.org/grpc"
 )
 
 type Handler struct {
 }
 
-// func (h *Handler)
+func (h *Handler) Query(req *golibs.Request, stream golibs.ExampleService_QueryServer) error {
+	return nil
+}
 
 func main() {
 	port := 8080
@@ -20,7 +28,7 @@ func main() {
 	grpcServer := grpc.NewServer([]grpc.ServerOption{}...)
 	var h Handler
 
-	go.RegisterExampleServiceServer(grpcServer, &h)
-	log.Debugf("starting GRPC server at port: %d", port)
+	golibs.RegisterExampleServiceServer(grpcServer, &h)
+	log.Printf("starting GRPC server at port: %d", port)
 	grpcServer.Serve(lis)
 }
