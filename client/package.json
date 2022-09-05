@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/psankar/grpc-compression-example#readme",
   "dependencies": {
+    "@improbable-eng/grpc-web": "^0.15.0",
     "google-protobuf": "^3.21.0",
     "grpc": "^1.24.11"
   }
